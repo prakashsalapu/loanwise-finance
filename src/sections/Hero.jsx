@@ -19,7 +19,7 @@ export default function Hero() {
     <section
       id="home"
       ref={ref}
-      className="min-h-screen flex items-center justify-center relative overflow-hidden pt-20 sm:pt-24 lg:pt-28"
+      className="min-h-screen flex items-center justify-center relative overflow-hidden pt-4 sm:pt-16 lg:pt-20"
       aria-labelledby="hero-heading"
     >
       {/* Subtle background blobs — pointer-events disabled, aria-hidden */}
@@ -28,7 +28,7 @@ export default function Hero() {
         <div className="absolute bottom-1/4 -right-32 w-80 h-80 bg-emerald-500/8 rounded-full blur-3xl" />
       </div>
 
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16 sm:py-20 lg:py-24 relative z-10 w-full">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-2 sm:pt-12 lg:pt-16 pb-16 sm:pb-20 lg:pb-24 relative z-10 w-full">
         <div className="text-center max-w-4xl mx-auto">
 
           {/* BADGE */}

@@ -48,7 +48,7 @@ export default function Features() {
   const [ref, isInView] = useInView()
 
   return (
-    <section id="features" ref={ref} className="py-16 lg:py-24 bg-gray-50" aria-labelledby="features-heading">
+    <section id="features" ref={ref} className="pt-8 sm:pt-16 lg:pt-24 pb-16 lg:pb-24 bg-gray-50" aria-labelledby="features-heading">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
 
         <SectionHeader
